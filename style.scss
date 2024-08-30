@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(162, 0, 255);
+    // margin é o espaçamento fora da caixa 
+    margin: 20px;
+    // padding é o espaçamento de dentro da caixa
+    padding: 10px;
+    border: solid 2px;
+    // é quando a tag ocupa do inicio ao fim da tag, porém neste caso há uma alturae largura definidas
+    // display padrão da div; block
+    display: inline-block;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(108, 29, 148);
+    margin: 20px;
+    padding: 10px;
+    display: inline-block;
+}
